@@ -22,7 +22,7 @@ body {
     left: 100%;
     right: 0;
     background-color: hsl(34, 100%, 36%);
-    overflow: hidden;
+    overflow: scroll;
     width: 0;
     height: 100%;
     transition: .5s ease;
@@ -31,6 +31,7 @@ body {
   .container {
     position:relative;
     width: 50%;
+    margin: auto;
   }
   
   .container:hover .overlay {
@@ -44,10 +45,13 @@ ol {
 }
 .menu {
     list-style-position: inside;
-    text-align: center;
+    text-align: left;
     font-weight: 800;
     font-size: 30px;
     background-color: rgba(92, 9, 95, 0.493);
+    width: 400px;
+    margin: auto;
+    padding: 25px;
 }
 
 .recipe-body {
